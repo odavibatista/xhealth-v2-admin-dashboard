@@ -1,10 +1,10 @@
-import { JSX } from "react";
+import { JSX } from 'react';
 
 interface ButtonProps {
   text: string;
-  type?: "submit" | "button";
-  color: "primary" | "secondary" | "transparent";
-  font_size: "12" | "14" | "16" | "18" | "20" | "24";
+  type?: 'submit' | 'button';
+  color: 'primary' | 'secondary' | 'transparent';
+  font_size: '12' | '14' | '16' | '18' | '20' | '24';
   className?: string;
   onClick?: () => void;
 }
